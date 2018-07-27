@@ -1,0 +1,35 @@
+{
+  "name": "Common+Extended",
+  "version": "1",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "homepage": "https://github.com/iwheelbuy/Common",
+  "license": "MIT",
+  "authors": "iWheelBuy",
+  "source": {
+    "git": "git@github.com:iwheelbuy/Common.git",
+    "tag": "1"
+  },
+  "summary": "CommonExtended",
+  "cocoapods_version": ">= 1.4.0",
+  "default_subspecs": "Planes",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.1"
+  },
+  "subspecs": [
+    {
+      "name": "Planes",
+      "source_files": [
+        "Base+Extended/**/*.{h,m,swift}",
+        "RxSwift+Extended/**/*.{h,m,swift}",
+        "Texture+Extended/**/*.{h,m,swift}"
+      ],
+      "dependencies": {
+        "Common/Planes": [
+
+        ]
+      }
+    }
+  ]
+}

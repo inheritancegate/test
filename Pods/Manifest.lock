@@ -1,0 +1,86 @@
+PODS:
+  - "Common+Extended/Planes (1)":
+    - Common/Planes
+  - Common/Planes (1):
+    - RxCocoa
+    - RxOptional
+    - RxSwift
+    - Texture
+    - UIPanGestureRecognizerDirection
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxOptional (3.5.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - UIPanGestureRecognizerDirection (1.0.2)
+
+DEPENDENCIES:
+  - "Common+Extended/Planes (from `https://github.com/iwheelbuy/Common.git`, branch `planes`)"
+  - Common/Planes (from `https://github.com/iwheelbuy/Common.git`, branch `planes`)
+  - Texture (~> 2.6.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - RxCocoa
+    - RxOptional
+    - RxSwift
+    - Texture
+    - UIPanGestureRecognizerDirection
+
+EXTERNAL SOURCES:
+  Common:
+    :branch: planes
+    :git: https://github.com/iwheelbuy/Common.git
+  "Common+Extended":
+    :branch: planes
+    :git: https://github.com/iwheelbuy/Common.git
+
+CHECKOUT OPTIONS:
+  Common:
+    :commit: a9c9f54d842588546ab53c335cc2da62bd7c47e3
+    :git: https://github.com/iwheelbuy/Common.git
+  "Common+Extended":
+    :commit: a9c9f54d842588546ab53c335cc2da62bd7c47e3
+    :git: https://github.com/iwheelbuy/Common.git
+
+SPEC CHECKSUMS:
+  Common: 65e82feec1387031ab5e70a693eb35262204f4f7
+  "Common+Extended": 8df97fb0e5a638f78348cb2e26fa09fc69a6029b
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxOptional: bd32ff8ca9df4177683d56ffeb618a9d4d5d5cad
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
+  UIPanGestureRecognizerDirection: 8a693dcb3e90d53ab282dab0d96484dbf886027e
+
+PODFILE CHECKSUM: d8739118e9dd847c6fbadcedac3d1dcbd7f35417
+
+COCOAPODS: 1.5.3

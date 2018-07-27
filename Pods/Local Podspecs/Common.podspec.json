@@ -1,0 +1,47 @@
+{
+  "name": "Common",
+  "version": "1",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "homepage": "https://github.com/iwheelbuy/Common",
+  "license": "MIT",
+  "authors": "iWheelBuy",
+  "source": {
+    "git": "git@github.com:iwheelbuy/Common.git",
+    "tag": "1"
+  },
+  "summary": "Common",
+  "cocoapods_version": ">= 1.4.0",
+  "default_subspecs": "Planes",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.1"
+  },
+  "subspecs": [
+    {
+      "name": "Planes",
+      "source_files": [
+        "Base/**/*.{h,m,swift}",
+        "RxSwift/**/*.{h,m,swift}",
+        "Texture/**/*.{h,m,swift}"
+      ],
+      "dependencies": {
+        "RxCocoa": [
+
+        ],
+        "RxOptional": [
+
+        ],
+        "RxSwift": [
+
+        ],
+        "Texture": [
+
+        ],
+        "UIPanGestureRecognizerDirection": [
+
+        ]
+      }
+    }
+  ]
+}
